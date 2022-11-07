@@ -14,6 +14,10 @@ body {
 }
 
 .intro {
+  position: absolute;
+  top: 5%;
+  right: 50%;
+  transform: translateX(50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +28,13 @@ body {
 
 .head {
   color: #1a2e2a;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
 .suh-heading {
   color: #45786d;
-  font-size: 2rem;
-  margin: 1rem 0rem;
-  font-weight: 300;
+  font-size: 1rem;
 }
 
 .keys {
